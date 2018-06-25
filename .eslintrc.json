@@ -1,0 +1,22 @@
+{
+	"extends": ["airbnb", "eslint:recommended", "prettier"],
+	// "extends": ["airbnb", "prettier"], // これがもっと厳しい
+	"rules": {
+		"indent": ["error", "tab"],
+		"linebreak-style": "error",
+		"new-cap": "off",
+		"no-console": "off", // リリース準備時は有効にする
+		"no-tabs": 0,
+		"no-unused-vars": ["error", { "vars": "all", "args": "none", "ignoreRestSiblings": false }],
+		"no-use-before-define": "off",
+		"object-shorthand": ["error", "always"],
+		"prefer-destructuring": "off",
+		"semi": "off",
+		"space-before-function-paren": ["error", "never"],
+		"func-names": "off",
+		"radix": "off"
+	},
+	"parserOptions": {
+		"ecmaVersion": 6
+	}
+}

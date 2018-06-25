@@ -1,35 +1,35 @@
 {
-  "interactionModel": {
-    "languageModel": {
-      "invocationName": "next prayer time",
-      "intents": [
-        {
-          "name": "AMAZON.CancelIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.HelpIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.StopIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.FallbackIntent",
-          "samples": []
-        },
-        {
-          "name": "GetNextPrayerTimeIntent",
-          "samples": [
-            "next prayer",
-            "next prayer time",
-            "tell me when is next prayer time",
-            "give me when is next prayer time"
-          ],
-          "slots": []
-        }
-      ]
-    }
-  }
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "next prayer time",
+			"intents": [
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.FallbackIntent",
+					"samples": []
+				},
+				{
+					"name": "GetNextPrayerTimeIntent",
+					"samples": [
+						"next prayer",
+						"next prayer time",
+						"tell me when is next prayer time",
+						"give me when is next prayer time"
+					],
+					"slots": []
+				}
+			]
+		}
+	}
 }

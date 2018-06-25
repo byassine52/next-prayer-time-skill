@@ -1,0 +1,13 @@
+{
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": true,
+	"search.exclude": {
+		"node_modules/": true
+	},
+	"editor.renderWhitespace": "all",
+	"files.eol": "\n",
+	"eslint.packageManager": "yarn"
+	// "stylelint.enable": true,
+	// "css.validate": false,
+	// "scss.validate": false
+}

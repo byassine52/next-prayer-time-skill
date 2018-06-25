@@ -1,16 +1,27 @@
 {
-  "name": "fact",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ask-sdk-core": "^2.0.0",
-    "ask-sdk-model": "^1.0.0",
-    "moment": "^2.22.2"
-  }
+	"name": "next-prayer-time",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prettify": "prettier --write './**/*.{js,json,ts}'; ! stylelint 'src/**/*.{,s}css' --fix",
+		"prettier": "prettier"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ask-sdk-core": "^2.0.0",
+		"ask-sdk-model": "^1.0.0",
+		"moment": "^2.22.2"
+	},
+	"devDependencies": {
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb": "^17.0.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-prettier": "^2.6.1",
+		"prettier": "^1.13.6",
+		"stylelint": "^9.3.0"
+	}
 }
